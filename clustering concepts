@@ -1,0 +1,31 @@
+What is Clustering?
+->Clustering is the task of dividing the population or data points into a number of groups.
+->These groups are formed such that data points in the same groups are more similar to other data points in the same group. 
+->Data points in the same group are dissimilar to the data points in other groups. 
+->It is basically a collection of objects on the basis of similarity and dissimilarity between them.
+
+What is K-Means Clustering Algorithm?
+->It is the simplest unsupervised learning algorithm that solves clustering problem.
+->K-means algorithm partition n observations into k clusters where each observation belongs to the cluster with the nearest mean serving as a prototype of the cluster.
+->The algorithm works iteratively to assign each data point to one of K groups based on the features that are provided.
+->Rather than defining groups before looking at the data, clustering allows you to find and analyze the groups that have formed organically. 
+->The "Choosing K" section below describes how the number of groups can be determined.  
+->Each centroid of a cluster is a collection of feature values which define the resulting groups. 
+->Examining the centroid feature weights can be used to qualitatively interpret what kind of group each cluster represents. 
+
+What are the results of K-Means CLustering?
+->The centroids of the K clusters, which can be used to label new data
+->Labels for the training data (each data point is assigned to a single cluster)
+
+What is Hierarchical Clustering?
+->Hierarchical cluster analysis, is an algorithm that groups similar objects into groups called clusters. 
+->The endpoint is a set of clusters, where each cluster is distinct from each other cluster, and the objects within each cluster are broadly similar to each other.
+->Hierarchical clustering can be performed with either a distance matrix or raw data. 
+->When raw data is provided, the code will automatically compute a distance matrix in the background.
+
+How hierarchical clustering works?
+->Hierarchical clustering starts by treating each observation as a separate cluster. 
+->Then, it repeatedly executes the following two steps: 
+   (1) identify the two clusters that are closest together, and 
+   (2) merge the two most similar clusters. 
+->This continues until all the clusters are merged together. 
